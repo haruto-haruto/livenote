@@ -70,7 +70,7 @@ jobs:
         run: npm ci --prefix functions && npm run build --prefix functions
 
       - name: Deploy to Functions
-        uses: w9jbs/firebase-action@master
+        uses: w9jds/firebase-action@master
         with:
           args: deploy --only functions --project=${{ secrets.PROJECT_ID }}
         env:
