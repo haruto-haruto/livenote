@@ -1,4 +1,4 @@
-FROM node:14.4.0-alpine
+FROM node:16
 
 ARG _NODE_ENV
 
@@ -20,4 +20,4 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "run", "preview" ]
