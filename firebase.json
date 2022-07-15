@@ -1,0 +1,21 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "rewrites":[{
+      "source":"**",
+      "run": {
+        "serviceId":"renderer",
+        "region": "asia-northeast1"
+      }
+    }],
+    "public": "assets",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

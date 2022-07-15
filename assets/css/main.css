@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      background: #e0e0e0;
+    }
+}
+@layer components {
+    .totu-morphism {
+        border-radius: 120px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 16px #c3c3c3,
+                     -5px -5px 16px #fdfdfd;
+    }
+    .ou-morphism {
+        border-radius: 120px;
+        background: #e0e0e0;
+        box-shadow: inset 5px 5px 16px #c3c3c3,
+            inset -5px -5px 16px #fdfdfd;
+  }
+  .totu-morphism2 {
+    border-radius: 40px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  19px 19px 33px #d7d7d7,
+             -19px -19px 33px #e9e9e9;
+}
+}
+
+:root {
+    --shadow: black;
+    --primary: #141625;
+    --secondary: #141625;
+    --green-1: #00c58e;
+    --green-2: #00e0a1;
+    --shadow: 20px 20px 60px rgba(0, 0, 0, 0.192);
+}
+
+.app__content {
+    padding: 1.5rem 2rem;
+    border-radius: 7px;
+    background: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  5px 5px 16px #c3c3c3,
+                     -5px -5px 16px #fdfdfd;
+}
+
+.content__radial {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    color: white;
+    border-radius: 120px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 16px #c3c3c3,
+                 -5px -5px 16px #fdfdfd;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content__radial div:first-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content__radial div small {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+.content__radial div span {
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 1201px) {
+    #app {
+        background-color: #e0e0e0;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #app {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #app {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+}
