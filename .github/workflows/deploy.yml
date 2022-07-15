@@ -13,10 +13,9 @@ jobs:
   delivery:
     runs-on: ubuntu-latest
     
-    job_id:
-      permissions:
-        contents: 'read'
-        id-token: 'write'
+    permissions:
+      contents: 'read'
+      id-token: 'write'
 
     steps:
       - name: Checkout the repository
