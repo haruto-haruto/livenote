@@ -1,13 +1,13 @@
 name: CI/CD
 
-on:
+'on':
   push:
     branches:
       - main
 
 env:
   GCP_REGION: ${{ secrets.REGION }}
-  IMAGE: asia.gcr.io/${{ secrets.PROJECT_ID }}/renderer:${{ giuhub.sha }}
+  IMAGE: asia.gcr.io/${{ secrets.PROJECT_ID }}/renderer:${{ github.sha }}
 
 jobs:
   delivery:
