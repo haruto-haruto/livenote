@@ -65,12 +65,8 @@ jobs:
           channelId: live
           projectId: ${{ secrets.PROJECT_ID }}
 
-      - name: Build for Functions
-        run: npm ci --prefix functions && npm run build --prefix functions
-
-      - name: Deploy to Functions
-        uses: w9jds/firebase-action@master
+      - id: 'deploy'
+        uses: 'google-github-actions/deploy-cloud-functions@v0'
         with:
-          args: deploy --only functions --project=${{ secrets.PROJECT_ID }}
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN}}
+          name: 'livenote-function'
+          runtime: 'nodejs16'
