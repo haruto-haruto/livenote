@@ -37,9 +37,9 @@ jobs:
           service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
 
       - name: Configure docker to use the gcloud cli
-        run: | 
-        gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
-        gcloud auth configure-docker
+        run: |
+          gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
+          gcloud auth configure-docker
 
       - name: Build a docker image
         run: docker build -t ${{ env.IMAGE }} .
