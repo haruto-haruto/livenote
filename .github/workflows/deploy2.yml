@@ -8,6 +8,7 @@ name: CI/CD
 env:
   GCP_REGION: ${{ secrets.REGION }}
   IMAGE: asia.gcr.io/${{ secrets.PROJECT_ID }}/renderer:${{ github.sha }}
+  GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
 jobs:
   delivery:
@@ -48,6 +49,9 @@ jobs:
 
       - name: Build a docker image
         run: docker build -t ${{ env.IMAGE }} .
+
+      - name: log in to gcr from docker cmmand
+        run: docker login -u _json_key -p "$(cat ${{ env.GOOGLE_APPLICATION_CREDENTIALS }})" https://gcr.io
 
       - name: Push the docker image
         run: docker push ${{ env.IMAGE }}
