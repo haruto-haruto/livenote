@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        users: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: setup Node
         uses: actions/setup-node@v3
@@ -36,11 +36,10 @@ jobs:
           workload_identity_provider: 'projects/193058990223/locations/global/workloadIdentityPools/gh-oidc-pool/providers/gh-oidc-pool'
           service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
 
-      - name: Configure docker to use the gcloud cli#1
-        run: gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
-
-      - name: Configure docker to use the gcloud cli#2
-        run: gcloud auth configure-docker
+      - name: Configure docker to use the gcloud cli
+        run: | 
+          gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
+          gcloud auth configure-docker
 
       - name: Build a docker image
         run: docker build -t ${{ env.IMAGE }} .
