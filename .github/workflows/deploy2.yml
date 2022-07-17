@@ -6,9 +6,9 @@ name: CI/CD
       - main
 
 env:
-  GCP_REGION: ${{ secrets.REGION }}
+  PROJECT_ID: ${{ secrets.PROJECT_ID }}
+  REGION: ${{ secrets.REGION }}
   IMAGE: asia.gcr.io/${{ secrets.PROJECT_ID }}/renderer:${{ github.sha }}
-  GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
 jobs:
   delivery:
@@ -48,14 +48,15 @@ jobs:
       - name: Push the docker image
         run: docker push ${{ env.IMAGE }}
 
-      - name: Deploy to Cloud run
-        id: deploy
-        uses: google-github-actions/deploy-cloudrun@v0
-        with:
-          sevice: renderer
-          image: ${{ env.IMAGE }}
-          region: ${{ env.REGION }}
-      
+      - name: Deploy to Cloud Run
+        run: | 
+          gcloud run deploy renderer \
+            --project=$PROJECT_ID \
+            --image=$IMAGE \
+            --region=$REGION \
+            --platform managed \
+            --allow-unauthenticated
+
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
