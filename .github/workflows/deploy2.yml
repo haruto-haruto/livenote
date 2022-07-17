@@ -42,6 +42,7 @@ jobs:
 
       - name: Configure docker to use the gcloud cli
         run: | 
+          sudo usermod -a -G docker ${USER}
           gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
           gcloud auth configure-docker
 
