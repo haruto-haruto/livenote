@@ -7,19 +7,15 @@ name: CI/CD
 
 env:
   GCP_REGION: ${{ secrets.REGION }}
-  IMAGE: asia.gcr.io/livenote-11939/renderer:${{ github.sha }}
+  IMAGE: asia.gcr.io/${{ secrets.PROJECT_ID }}
 
 jobs:
   delivery:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: 'read'
-      id-token: 'write'
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        users: actions/checkout@v3
 
       - name: setup Node
         uses: actions/setup-node@v3
@@ -33,25 +29,24 @@ jobs:
       - name: Build
         run: npm run build
 
-      - id: "auth"
-        uses: "google-github-actions/auth@v0"
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v0'
         with:
           create_credentials_file: true
           workload_identity_provider: 'projects/193058990223/locations/global/workloadIdentityPools/gh-oidc-pool/providers/gh-oidc-pool'
           service_account: '${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}'
 
-      - name: 'Set up Cloud SDK'
-        uses: 'google-github-actions/setup-gcloud@v0'
-      
       - name: Configure docker to use the gcloud cli
-        run: gcloud auth configure-docker
+        run: | 
+        gcloud auth activate-service-account github-action-513041425@livenote-11939.iam.gserviceaccount.com --key-file=livenote-11939.json
+        gcloud auth configure-docker
 
       - name: Build a docker image
         run: docker build -t ${{ env.IMAGE }} .
 
       - name: Push the docker image
         run: docker push ${{ env.IMAGE }}
-      
+
       - name: Deploy to Cloud run
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v0
