@@ -4,6 +4,9 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "livenote-11929",
+    "public": "assets",
+    "cleanUrls": true,
     "rewrites":[{
       "source":"**",
       "run": {
@@ -11,11 +14,11 @@
         "region": "asia-northeast1"
       }
     }],
-    "public": "assets",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  },
+  "functions": { "source": ".output/server" }
 }
