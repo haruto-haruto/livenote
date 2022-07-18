@@ -4,9 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "site": "livenote-11929",
     "public": "assets",
-    "cleanUrls": true,
     "rewrites":[{
       "source":"**",
       "run": {
@@ -19,6 +17,5 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "functions": { "source": ".output/server" }
+  }
 }
