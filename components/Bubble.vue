@@ -4,10 +4,11 @@
 
 <script>
 
-//記事末尾で補足
 import { defineComponent } from 'vue';
 import { Chart, registerables } from 'chart.js';
+
 Chart.register(...registerables);
+
 
 export default defineComponent ({
   name:'bubblechart',
