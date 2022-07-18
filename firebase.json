@@ -3,9 +3,12 @@
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
-  "hosting": [
+  "functions": { "source": ".output/server" },
+  "hosting": 
     {
+      "site": "livenote-11939",
       "public": ".output/public",
+      "cleanUrls": true,
       "rewrites":[{
         "source":"**",
         "run": {
@@ -18,5 +21,5 @@
         "**/.*",
         "**/node_modules/**"
       ]
-    }]
+    }
 }
