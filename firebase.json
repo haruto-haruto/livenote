@@ -3,19 +3,23 @@
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
-  "hosting": {
-    "public": "assets",
-    "rewrites":[{
-      "source":"**",
-      "run": {
-        "serviceId":"renderer",
-        "region": "asia-northeast1"
-      }
-    }],
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "functions": { "source": ".output/server" },
+  "hosting": [
+    {
+      "site": "<your_project_id>",
+      "public": ".output/public",
+      "cleanUrls": true,
+      "rewrites":[{
+        "source":"**",
+        "run": {
+          "serviceId":"renderer",
+          "region": "asia-northeast1"
+        }
+      }],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }]
 }
