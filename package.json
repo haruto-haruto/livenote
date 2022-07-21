@@ -10,7 +10,7 @@
     "firebase-admin": "^11.0.0",
     "firebase-functions": "^3.22.0",
     "firebase-functions-test": "^2.2.0",
-    "nuxt": "3.0.0-rc.4"
+    "nuxt": "npm:nuxt3@latest"
   },
   "dependencies": {
     "@egjs/flicking": "^4.9.0",
