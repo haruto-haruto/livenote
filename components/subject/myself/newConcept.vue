@@ -5,15 +5,15 @@
   </div>
   <div class="flex flex-raw justify-around">
       <div class="w-1/2 p-3">
-          <div class="mb-2 text-center text-2xl">意味</div>
+          <div class="mb-2 text-center text-2xl">自分にとっての意味</div>
           <slot name="meaning">
-               <textarea class="items-center w-full" placeholder="ここに意味を記述します" @mousedown.stop ></textarea>
+               <textarea class="text-xl items-center w-full" placeholder="ここに意味を記述します" @mousedown.stop ></textarea>
           </slot>
       </div>
       <div class="w-1/2 p-3">
-          <div class="pb-2 text-center text-2xl">理由</div>
+          <div class="pb-2 text-center text-2xl">その価値観が大事な理由</div>
           <slot name="reason">
-               <textarea class="items-center w-full" placeholder="ここに理由を記述します" @mousedown.stop></textarea>
+               <textarea class="text-xl items-center w-full" placeholder="ここに理由を記述します" @mousedown.stop></textarea>
           </slot>
       </div>
   </div>

@@ -18,7 +18,7 @@
       <p>Q５「最高のリーダー」</p>
       <p>Q６「伝えたい行動」</p>
       <p><span>本当の価値観を探り出すために、</span><span>簡単なエクササイズで凝り固まった頭をほぐしていきましょう。</span></p>
-      <nuxt-link to="/sixquestion">Leat's Go</nuxt-link>
+      <nuxt-link to="Techniques/myself/sixquestion">Leat's Go</nuxt-link>
       </template>
 </Explanation>
 </template>

@@ -2,7 +2,9 @@
   <div class="flex flex-raw justify-around space-x-3 p-3 ou-morphism">
 
     <div class="w-1/2 totu-morphism">
-        <div class="p-2 mb-4 text-3xl text-center">Todo</div>
+        <div class="p-2 mb-4 text-3xl text-center">
+          <slot name="title">Todo</slot>
+        </div>
 
         <div class="flex p-2 mb-4 totu-morphism ">
             <input v-model="todo"><br>
@@ -28,7 +30,7 @@
 </template>
 
 <script>
-import TodoQwin from '../components/TodoQwin.vue'
+import TodoQwin from '~/components/goal/qwin/TodoQwin.vue'
 export default {
   components: {
     TodoQwin,
