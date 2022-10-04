@@ -26,7 +26,7 @@
           <span>なおかつ客観的なスタンスも維持しやすくなります。</span></p>
         <p><span class="se-none">いわば</span><span>価値観が人生の羅針盤として</span><span>働いてくれます。</span></p></template>
         <template v-slot:link>
-        <nuxt-link to="/valuelist">Leat's Go</nuxt-link>
+        <a href="Techniques/myself/valuelist">Leat's Go</a>
         </template>
 </Explanation>
 </template>

@@ -11,8 +11,6 @@ export default defineNuxtConfig({
     ],
     modules: [
     ],
-    plugins: [
-    ],
     build: {
       transpile: ['chart.js'],
       postcss: {

@@ -56,7 +56,7 @@
     <main class="MuiContainer-root jss309 MuiContainer-maxWidthLg">
         <div class="jss310">
             <div style="position: absolute; z-index: 1;">
-                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="TOP画像" title="" style="max-width: 960px;">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~\assets\images\topimage.png" alt="TOP画像" title="" style="max-width: 960px;">
             </div>
             <div style="width: 100%; z-index: 3; height: 370px; background-color: transparent;"></div>
             <div style="z-index: 3;">
@@ -82,25 +82,25 @@
                 </div>
                 <div style="width: 100%; background-color: rgb(216, 242, 255); min-height: 300px;">
                     <div class="jss312">
-                        <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="例えばこんなにお得" title="" style="width: 368px; margin: auto; padding-top: 50px; padding-bottom: 20px;">
-                        <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="Livenoteなら！" title="" style="max-width: 1020px; margin: auto;">
+                        <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得title.png" alt="例えばこんなにお得" title="" style="width: 368px; margin: auto; padding-top: 50px; padding-bottom: 20px;">
+                        <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得fin.png" alt="Livenoteなら！" title="" style="max-width: 1020px; margin: auto;">
                     </div>
                 </div>
                 <div style="background-color: rgb(238, 240, 242); padding-bottom: 36px;">
-                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="5つのポイントサブタイトル" title="">
-                    <div style="display: flex; width: 800px; flex-wrap: wrap; justify-content: space-between; margin: auto; padding-bottom: 20px;">
-                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="" alt="広告なしでテクニックが使いたい放題　会員限定テクニックもあり！" title="">
-                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="" alt="可能！" title="">
-                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="" alt="内容が3行でわかる！" title="">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/point5.png" alt="5つのポイントサブタイトル" title="">
+                    <div style="display: flex; width: 1020px; flex-wrap: wrap; justify-content: space-between; margin: auto; padding-bottom: 20px;">
+                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得フレーム01.png" alt="広告なしでテクニックが使いたい放題　会員限定テクニックもあり！" title="">
+                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得フレーム02.png" alt="可能！" title="">
+                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得フレーム03.png" alt="内容が3行でわかる！" title="">
                     </div>
-                   <div style="display: flex; width: 536px; flex-wrap: wrap; justify-content: space-between; margin: auto; padding-top: 20px;">
-                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="" alt="隙間時間で超活用！" title="">
-                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="" alt="プレミアムプランならでさらにできる！" title="">
+                   <div style="display: flex; width: 678px; flex-wrap: wrap; justify-content: space-between; margin: auto; padding-top: 20px;">
+                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得フレーム04.png" alt="隙間時間で超活用！" title="">
+                        <img class="MuiCardMedia-root jss316 MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/お得フレーム05.png" alt="プレミアムプランならでさらにできる！" title="">
                     </div>
                 </div>
                 <div style="background-color: rgb(216, 242, 255); padding-bottom: 48px;">
-                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="ご利用までのかんたん3ステップ" title="">
-                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="メルアド登録→プラン選択→ご利用開始！" title="" style="margin: auto; max-width: 800px;">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/livenotestep3title.png" alt="ご利用までのかんたん3ステップ" title="">
+                    <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="~/assets/images/step3.png" alt="メルアド登録→プラン選択→ご利用開始！" title="" style="margin: auto; max-width: 800px;">
                 </div>
                 <div style="background-color: white;">
                     <div style="padding-top: 62px; padding-bottom: 60px;">
@@ -116,7 +116,7 @@
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">広告無し</p></div>
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">テクニック使用<br>件数</p></div>
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">プレミアム<br>テクニック使用権</p></div>
-                                <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1"><br></p></div>
+                                <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">テクニック<br>検索機能</p></div>
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">過去のテクニック<br>保存件数</p></div>
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">バック<br>グラウンド<br>再生<p class="MuiTypography-root jss325 MuiTypography-body1">※4</p></p></div>
                                 <div class="jss319 jss320"><p class="MuiTypography-root jss322 MuiTypography-body1">image<br>ダウンロード<br>機能<p class="MuiTypography-root jss325 MuiTypography-body1">※4</p></p></div>
@@ -171,6 +171,156 @@
                     <div style="background-color: rgb(249, 250, 252);">
                         <img class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img" src="" alt="テクニック一覧" title="">
                         <div style="margin: auto; display: flex; flex-flow: row wrap; width: 1020px;">
+                            <div style="max-width: 333px; margin: 0px auto;">
+                                <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
+                                    <div style="width: 303px; margin: auto;" class="flex">
+                                        <img src="~/assets/images/grow.png" alt="人" width="90" height="90" style=" margin-bottom: 5px;">
+                                        <div>
+                                            <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 25px; line-height: 30px; padding: 10px 30px 0px">自分を変える</p>
+                                            <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 15px; line-height: 15px; padding: 10px 5px 0px 20px">自分を正しく知り<br>劇的に変える</p>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 0px 30px 10px 20px;">
+                                          <p class="MuiTypography-root jss363 jss365 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px 0px 3px;">　おすすめの方:</p>
+                                          <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">・自分を知りたい</p>
+                                          <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">・ずっと変えたいと思っている行動、性格がある</p>
+                                          <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">・分かっているのに変えられないくせや特徴がある</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABQCAYAAAD1NTBhAAAACXBIWXMAAFiVAABYlQHZbTfTAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTE5VDE5OjUwOjQ0KzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTlUMTk6NTA6NDQrMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4zIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gSrvZAAACcklEQVR42u2d4U3DQAyFPUJHYAQ2gA1gA9gANsgIjFA2YARG6Aa4hQFOKknz0/wAIYTSNm2Tq8/5nvQW8JPtZ/uaim7sSRszmJ2qyS6kD95qeyZgGVlb6i2OiIgmm2ljieBl4tpu5VBoY3OCl4WVHANNdkHwRueLnAKyaGQe0nfIouycyxAgi8bhR2tXwwhEFo1CGRIMr4PPPYthBWIu8uXeurBqrSKww3B17OzTI4uUAA8g0MYeZAzop10T4NP53tiNjIXlxl4JshOLvcN2Yxi8CiQiorU9EmjHAlHqChCIUudcIEpdAQJR6goQiFJ3xKBa253khNZ2T+AdC8TG28EurueuboEA+7kc6ppKPyro3NBbpLXdIsD+V6RyTnA76vWiZ3ZWkXg+vPfsfXlWgTANDq32FtPAFbaLG3sSD9DaLnF2nSXuVbyAU3knk3gC6yCHRgH7fabXPYgUYKOASAX2IUTq4KddI1LEn0Ai0gTnIURyujhFpALtNiIVVuYm/9auhDL37yqbcHOeRZreqWIhpWFyInkeWnddZifzvNjLEQ+Ht303V5RZmKjDq6Rk/JzQlQ23f/MQ9sXQqnXw4oe+tNMsqESBru0+4lAbJovCzkuRsuhXqGC/UQqVRf9KnjIXOS95gbYPlURFkME2aXvix2cxEBz0mJlqewwvUuHZFNMw7MimhGHwn01zehFzk9/vbZNNCDQ5EyHAd9lDnb/Z5HD5ijK++1NCkS34aO3KQdmbo4Tj/pT1U5oIxZCapT/9rI10ZHHSyf93h5EYz0iEPH1HEQpx/AqlmIIcQn2bicVB/aaxauvtx8ygYxIE5/wC+6zjaDVgPFQAAAAASUVORK5CYII=" alt="" width="13" height="10">
+                                </div>
+                                <div style="padding: 16px 20px 20px 17px;">
+                                    <p class="MuiTypography-root jss363 jss367 MuiTypography-body1" style="font-weight: 500; font-size: 14px; line-height: 22px; color: rgb(120, 124, 132); padding: 0px;">
+                                    メリット
+                                    <span class="jss315">月500円台でどんな悩みでも答えが見つかる.</span>
+                                    </p>
+                                </div>
+                                <div style="border-width: 0px 1px 1px; border-style: dashed; border-color: rgb(187, 187, 187); border-image: initial; width: 302px; margin: auto;"></div>
+                                <div style="padding-top: 20px; padding-left: 20px; padding-bottom: 80px;">
+                                    <p class="MuiTypography-root jss363 jss368 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 14px; line-height: 18px; padding: 0px 0px 10px;">自分を変えるおすすめテクニック</p>
+                                   <div style="display: flex; justify-content: space-between; width: 304px; padding-top: 8px;">
+                                        <img src="" alt="HSPの動画" height="81" width="144" style="border-radius: 4px;">
+                                        <img src="" alt="アサーショントレーニング" height="81" width="144" style="border-radius: 4px;">
+                                  </div>
+                                </div>
+                            </div>
+                            <div style="max-width: 333px; margin: 0px auto;">
+                                <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
+                                    <div style="width: 303px; margin: auto;">
+                                        <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 20px; line-height: 30px; padding: 20px 0px 8px;">HSPの活かし方や具体的対処法、メリットなどHSPの捉え方</p>
+                                    </div>
+                                    <img src="" alt="人" width="60" height="60" style="margin-left: 20px; margin-bottom: 12px;">
+                                    <div style="position: absolute; left: 90px; bottom: 26px;">
+                                        <p class="MuiTypography-root jss363 jss365 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px 0px 5px;">人</p>
+                                        <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">おすすめ</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABQCAYAAAD1NTBhAAAACXBIWXMAAFiVAABYlQHZbTfTAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTE5VDE5OjUwOjQ0KzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTlUMTk6NTA6NDQrMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4zIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gSrvZAAACcklEQVR42u2d4U3DQAyFPUJHYAQ2gA1gA9gANsgIjFA2YARG6Aa4hQFOKknz0/wAIYTSNm2Tq8/5nvQW8JPtZ/uaim7sSRszmJ2qyS6kD95qeyZgGVlb6i2OiIgmm2ljieBl4tpu5VBoY3OCl4WVHANNdkHwRueLnAKyaGQe0nfIouycyxAgi8bhR2tXwwhEFo1CGRIMr4PPPYthBWIu8uXeurBqrSKww3B17OzTI4uUAA8g0MYeZAzop10T4NP53tiNjIXlxl4JshOLvcN2Yxi8CiQiorU9EmjHAlHqChCIUudcIEpdAQJR6goQiFJ3xKBa253khNZ2T+AdC8TG28EurueuboEA+7kc6ppKPyro3NBbpLXdIsD+V6RyTnA76vWiZ3ZWkXg+vPfsfXlWgTANDq32FtPAFbaLG3sSD9DaLnF2nSXuVbyAU3knk3gC6yCHRgH7fabXPYgUYKOASAX2IUTq4KddI1LEn0Ai0gTnIURyujhFpALtNiIVVuYm/9auhDL37yqbcHOeRZreqWIhpWFyInkeWnddZifzvNjLEQ+Ht303V5RZmKjDq6Rk/JzQlQ23f/MQ9sXQqnXw4oe+tNMsqESBru0+4lAbJovCzkuRsuhXqGC/UQqVRf9KnjIXOS95gbYPlURFkME2aXvix2cxEBz0mJlqewwvUuHZFNMw7MimhGHwn01zehFzk9/vbZNNCDQ5EyHAd9lDnb/Z5HD5ijK++1NCkS34aO3KQdmbo4Tj/pT1U5oIxZCapT/9rI10ZHHSyf93h5EYz0iEPH1HEQpx/AqlmIIcQn2bicVB/aaxauvtx8ygYxIE5/wC+6zjaDVgPFQAAAAASUVORK5CYII=" alt="" width="13" height="10">
+                                </div>
+                                <div style="padding: 16px 20px 20px 17px;">
+                                    <p class="MuiTypography-root jss363 jss367 MuiTypography-body1" style="font-weight: 500; font-size: 14px; line-height: 22px; color: rgb(120, 124, 132); padding: 0px;">
+                                    メリット
+                                    <span class="jss315">月500円台でどんな悩みでも答えが見つかる.</span>
+                                    </p>
+                                </div>
+                                <div style="border-width: 0px 1px 1px; border-style: dashed; border-color: rgb(187, 187, 187); border-image: initial; width: 302px; margin: auto;"></div>
+                                <div style="padding-top: 20px; padding-left: 20px; padding-bottom: 80px;">
+                                    <p class="MuiTypography-root jss363 jss368 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 14px; line-height: 18px; padding: 0px 0px 10px;">HSPのおすすめテクニック</p>
+                                   <div style="display: flex; justify-content: space-between; width: 304px; padding-top: 8px;">
+                                        <img src="" alt="HSPの動画" height="81" width="144" style="border-radius: 4px;">
+                                        <img src="" alt="アサーショントレーニング" height="81" width="144" style="border-radius: 4px;">
+                                  </div>
+                                </div>
+                            </div>
+                            <div style="max-width: 333px; margin: 0px auto;">
+                                <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
+                                    <div style="width: 303px; margin: auto;">
+                                        <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 20px; line-height: 30px; padding: 20px 0px 8px;">HSPの活かし方や具体的対処法、メリットなどHSPの捉え方</p>
+                                    </div>
+                                    <img src="" alt="人" width="60" height="60" style="margin-left: 20px; margin-bottom: 12px;">
+                                    <div style="position: absolute; left: 90px; bottom: 26px;">
+                                        <p class="MuiTypography-root jss363 jss365 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px 0px 5px;">人</p>
+                                        <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">おすすめ</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABQCAYAAAD1NTBhAAAACXBIWXMAAFiVAABYlQHZbTfTAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTE5VDE5OjUwOjQ0KzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTlUMTk6NTA6NDQrMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4zIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gSrvZAAACcklEQVR42u2d4U3DQAyFPUJHYAQ2gA1gA9gANsgIjFA2YARG6Aa4hQFOKknz0/wAIYTSNm2Tq8/5nvQW8JPtZ/uaim7sSRszmJ2qyS6kD95qeyZgGVlb6i2OiIgmm2ljieBl4tpu5VBoY3OCl4WVHANNdkHwRueLnAKyaGQe0nfIouycyxAgi8bhR2tXwwhEFo1CGRIMr4PPPYthBWIu8uXeurBqrSKww3B17OzTI4uUAA8g0MYeZAzop10T4NP53tiNjIXlxl4JshOLvcN2Yxi8CiQiorU9EmjHAlHqChCIUudcIEpdAQJR6goQiFJ3xKBa253khNZ2T+AdC8TG28EurueuboEA+7kc6ppKPyro3NBbpLXdIsD+V6RyTnA76vWiZ3ZWkXg+vPfsfXlWgTANDq32FtPAFbaLG3sSD9DaLnF2nSXuVbyAU3knk3gC6yCHRgH7fabXPYgUYKOASAX2IUTq4KddI1LEn0Ai0gTnIURyujhFpALtNiIVVuYm/9auhDL37yqbcHOeRZreqWIhpWFyInkeWnddZifzvNjLEQ+Ht303V5RZmKjDq6Rk/JzQlQ23f/MQ9sXQqnXw4oe+tNMsqESBru0+4lAbJovCzkuRsuhXqGC/UQqVRf9KnjIXOS95gbYPlURFkME2aXvix2cxEBz0mJlqewwvUuHZFNMw7MimhGHwn01zehFzk9/vbZNNCDQ5EyHAd9lDnb/Z5HD5ijK++1NCkS34aO3KQdmbo4Tj/pT1U5oIxZCapT/9rI10ZHHSyf93h5EYz0iEPH1HEQpx/AqlmIIcQn2bicVB/aaxauvtx8ygYxIE5/wC+6zjaDVgPFQAAAAASUVORK5CYII=" alt="" width="13" height="10">
+                                </div>
+                                <div style="padding: 16px 20px 20px 17px;">
+                                    <p class="MuiTypography-root jss363 jss367 MuiTypography-body1" style="font-weight: 500; font-size: 14px; line-height: 22px; color: rgb(120, 124, 132); padding: 0px;">
+                                    メリット
+                                    <span class="jss315">月500円台でどんな悩みでも答えが見つかる.</span>
+                                    </p>
+                                </div>
+                                <div style="border-width: 0px 1px 1px; border-style: dashed; border-color: rgb(187, 187, 187); border-image: initial; width: 302px; margin: auto;"></div>
+                                <div style="padding-top: 20px; padding-left: 20px; padding-bottom: 80px;">
+                                    <p class="MuiTypography-root jss363 jss368 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 14px; line-height: 18px; padding: 0px 0px 10px;">HSPのおすすめテクニック</p>
+                                   <div style="display: flex; justify-content: space-between; width: 304px; padding-top: 8px;">
+                                        <img src="" alt="HSPの動画" height="81" width="144" style="border-radius: 4px;">
+                                        <img src="" alt="アサーショントレーニング" height="81" width="144" style="border-radius: 4px;">
+                                  </div>
+                                </div>
+                            </div>
+                            <div style="max-width: 333px; margin: 0px auto;">
+                                <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
+                                    <div style="width: 303px; margin: auto;">
+                                        <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 20px; line-height: 30px; padding: 20px 0px 8px;">HSPの活かし方や具体的対処法、メリットなどHSPの捉え方</p>
+                                    </div>
+                                    <img src="" alt="人" width="60" height="60" style="margin-left: 20px; margin-bottom: 12px;">
+                                    <div style="position: absolute; left: 90px; bottom: 26px;">
+                                        <p class="MuiTypography-root jss363 jss365 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px 0px 5px;">人</p>
+                                        <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">おすすめ</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABQCAYAAAD1NTBhAAAACXBIWXMAAFiVAABYlQHZbTfTAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTE5VDE5OjUwOjQ0KzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTlUMTk6NTA6NDQrMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4zIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gSrvZAAACcklEQVR42u2d4U3DQAyFPUJHYAQ2gA1gA9gANsgIjFA2YARG6Aa4hQFOKknz0/wAIYTSNm2Tq8/5nvQW8JPtZ/uaim7sSRszmJ2qyS6kD95qeyZgGVlb6i2OiIgmm2ljieBl4tpu5VBoY3OCl4WVHANNdkHwRueLnAKyaGQe0nfIouycyxAgi8bhR2tXwwhEFo1CGRIMr4PPPYthBWIu8uXeurBqrSKww3B17OzTI4uUAA8g0MYeZAzop10T4NP53tiNjIXlxl4JshOLvcN2Yxi8CiQiorU9EmjHAlHqChCIUudcIEpdAQJR6goQiFJ3xKBa253khNZ2T+AdC8TG28EurueuboEA+7kc6ppKPyro3NBbpLXdIsD+V6RyTnA76vWiZ3ZWkXg+vPfsfXlWgTANDq32FtPAFbaLG3sSD9DaLnF2nSXuVbyAU3knk3gC6yCHRgH7fabXPYgUYKOASAX2IUTq4KddI1LEn0Ai0gTnIURyujhFpALtNiIVVuYm/9auhDL37yqbcHOeRZreqWIhpWFyInkeWnddZifzvNjLEQ+Ht303V5RZmKjDq6Rk/JzQlQ23f/MQ9sXQqnXw4oe+tNMsqESBru0+4lAbJovCzkuRsuhXqGC/UQqVRf9KnjIXOS95gbYPlURFkME2aXvix2cxEBz0mJlqewwvUuHZFNMw7MimhGHwn01zehFzk9/vbZNNCDQ5EyHAd9lDnb/Z5HD5ijK++1NCkS34aO3KQdmbo4Tj/pT1U5oIxZCapT/9rI10ZHHSyf93h5EYz0iEPH1HEQpx/AqlmIIcQn2bicVB/aaxauvtx8ygYxIE5/wC+6zjaDVgPFQAAAAASUVORK5CYII=" alt="" width="13" height="10">
+                                </div>
+                                <div style="padding: 16px 20px 20px 17px;">
+                                    <p class="MuiTypography-root jss363 jss367 MuiTypography-body1" style="font-weight: 500; font-size: 14px; line-height: 22px; color: rgb(120, 124, 132); padding: 0px;">
+                                    メリット
+                                    <span class="jss315">月500円台でどんな悩みでも答えが見つかる.</span>
+                                    </p>
+                                </div>
+                                <div style="border-width: 0px 1px 1px; border-style: dashed; border-color: rgb(187, 187, 187); border-image: initial; width: 302px; margin: auto;"></div>
+                                <div style="padding-top: 20px; padding-left: 20px; padding-bottom: 80px;">
+                                    <p class="MuiTypography-root jss363 jss368 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 14px; line-height: 18px; padding: 0px 0px 10px;">HSPのおすすめテクニック</p>
+                                   <div style="display: flex; justify-content: space-between; width: 304px; padding-top: 8px;">
+                                        <img src="" alt="HSPの動画" height="81" width="144" style="border-radius: 4px;">
+                                        <img src="" alt="アサーショントレーニング" height="81" width="144" style="border-radius: 4px;">
+                                  </div>
+                                </div>
+                            </div>
+                            <div style="max-width: 333px; margin: 0px auto;">
+                                <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
+                                    <div style="width: 303px; margin: auto;">
+                                        <p class="MuiTypography-root jss363 jss364 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 20px; line-height: 30px; padding: 20px 0px 8px;">HSPの活かし方や具体的対処法、メリットなどHSPの捉え方</p>
+                                    </div>
+                                    <img src="" alt="人" width="60" height="60" style="margin-left: 20px; margin-bottom: 12px;">
+                                    <div style="position: absolute; left: 90px; bottom: 26px;">
+                                        <p class="MuiTypography-root jss363 jss365 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px 0px 5px;">人</p>
+                                        <p class="MuiTypography-root jss363 jss366 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 11px; line-height: 14px; padding: 0px;">おすすめ</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABQCAYAAAD1NTBhAAAACXBIWXMAAFiVAABYlQHZbTfTAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1LTExOjUyOjEzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMyAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTE5VDE5OjUwOjQ0KzA5OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0xOVQxOTo1Njo1NiswOTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2Y3NGE5ZjQtM2FkYy03ZTRkLTk5NzYtYjRiZjFiOTkzNjA5Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZjc0YTlmNC0zYWRjLTdlNGQtOTk3Ni1iNGJmMWI5OTM2MDkiIHN0RXZ0OndoZW49IjIwMjEtMDQtMTlUMTk6NTA6NDQrMDk6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4zIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7gSrvZAAACcklEQVR42u2d4U3DQAyFPUJHYAQ2gA1gA9gANsgIjFA2YARG6Aa4hQFOKknz0/wAIYTSNm2Tq8/5nvQW8JPtZ/uaim7sSRszmJ2qyS6kD95qeyZgGVlb6i2OiIgmm2ljieBl4tpu5VBoY3OCl4WVHANNdkHwRueLnAKyaGQe0nfIouycyxAgi8bhR2tXwwhEFo1CGRIMr4PPPYthBWIu8uXeurBqrSKww3B17OzTI4uUAA8g0MYeZAzop10T4NP53tiNjIXlxl4JshOLvcN2Yxi8CiQiorU9EmjHAlHqChCIUudcIEpdAQJR6goQiFJ3xKBa253khNZ2T+AdC8TG28EurueuboEA+7kc6ppKPyro3NBbpLXdIsD+V6RyTnA76vWiZ3ZWkXg+vPfsfXlWgTANDq32FtPAFbaLG3sSD9DaLnF2nSXuVbyAU3knk3gC6yCHRgH7fabXPYgUYKOASAX2IUTq4KddI1LEn0Ai0gTnIURyujhFpALtNiIVVuYm/9auhDL37yqbcHOeRZreqWIhpWFyInkeWnddZifzvNjLEQ+Ht303V5RZmKjDq6Rk/JzQlQ23f/MQ9sXQqnXw4oe+tNMsqESBru0+4lAbJovCzkuRsuhXqGC/UQqVRf9KnjIXOS95gbYPlURFkME2aXvix2cxEBz0mJlqewwvUuHZFNMw7MimhGHwn01zehFzk9/vbZNNCDQ5EyHAd9lDnb/Z5HD5ijK++1NCkS34aO3KQdmbo4Tj/pT1U5oIxZCapT/9rI10ZHHSyf93h5EYz0iEPH1HEQpx/AqlmIIcQn2bicVB/aaxauvtx8ygYxIE5/wC+6zjaDVgPFQAAAAASUVORK5CYII=" alt="" width="13" height="10">
+                                </div>
+                                <div style="padding: 16px 20px 20px 17px;">
+                                    <p class="MuiTypography-root jss363 jss367 MuiTypography-body1" style="font-weight: 500; font-size: 14px; line-height: 22px; color: rgb(120, 124, 132); padding: 0px;">
+                                    メリット
+                                    <span class="jss315">月500円台でどんな悩みでも答えが見つかる.</span>
+                                    </p>
+                                </div>
+                                <div style="border-width: 0px 1px 1px; border-style: dashed; border-color: rgb(187, 187, 187); border-image: initial; width: 302px; margin: auto;"></div>
+                                <div style="padding-top: 20px; padding-left: 20px; padding-bottom: 80px;">
+                                    <p class="MuiTypography-root jss363 jss368 MuiTypography-body1" style="color: rgb(120, 124, 132); font-size: 14px; line-height: 18px; padding: 0px 0px 10px;">HSPのおすすめテクニック</p>
+                                   <div style="display: flex; justify-content: space-between; width: 304px; padding-top: 8px;">
+                                        <img src="" alt="HSPの動画" height="81" width="144" style="border-radius: 4px;">
+                                        <img src="" alt="アサーショントレーニング" height="81" width="144" style="border-radius: 4px;">
+                                  </div>
+                                </div>
+                            </div>
                             <div style="max-width: 333px; margin: 0px auto;">
                                 <div style="background-color: rgb(223, 245, 255); border-radius: 17px; position: relative;">
                                     <div style="width: 303px; margin: auto;">

@@ -21,13 +21,13 @@
           <br><span>自分の価値観に沿った人生を送るためには、具体的にどのように行動をとればいいのか考え、</span><span>リストアップする。</span></p>
         <p class="se-none"><span>以上のステップを踏めば、</span><span>あとは思いついたアクションを実際の行動に移すだけです。</span>
           <span>そのアクションをやり終えたら、</span><span>再び違うアクションを考え、少しずつ自分の価値観を実現させていきましょう。</span></p>
-        <nuxt-link to="/bullseye">Leat's Go</nuxt-link></template>
+        <nuxt-link to="Techniques/myself/bullseye">Leat's Go</nuxt-link></template>
 </Explanation>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import Explanation from '~/components/subject/Explanation';
+import Explanation from '../Explanation';
 export default defineComponent ({
     name:'subBBullsEye',
         components: {
