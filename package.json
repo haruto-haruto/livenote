@@ -19,6 +19,7 @@
     "@egjs/vue3-flicking": "^4.9.0",
     "@tailwindcss/line-clamp": "^0.4.0",
     "@vueform/toggle": "^2.1.1",
+    "caniuse-lite": "^1.0.30001448",
     "chart.js": "^3.8.0",
     "firebase": "^9.9.0",
     "postcss": "^8.4.14",
